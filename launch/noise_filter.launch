@@ -1,0 +1,6 @@
+<launch>
+    <param name="/name_input" type="string" value="/input"/>
+    <param name="/name_output" type="string" value="/output"/>
+    <node pkg="noise_filter" type="noise_filter_node" name="noise_filter" output="screen"/>
+   
+</launch>
