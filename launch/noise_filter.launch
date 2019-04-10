@@ -1,6 +1,8 @@
 <launch>
-    <param name="/name_input" type="string" value="/input"/>
-    <param name="/name_output" type="string" value="/output"/>
+    <param name="/sick_visionary_t_driver/laserscand" type="string" value="/input"/>
+    <param name="/sick_visionary_t_driver/laserscan_filtered" type="string" value="/output"/>
+    <param name="/queue" type="int" value="5"/>
     <node pkg="noise_filter" type="noise_filter_node" name="noise_filter" output="screen"/>
+    
    
 </launch>
